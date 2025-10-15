@@ -31,7 +31,7 @@ def get_users():
     session.close()
     
 if __name__ == "__main__":
-    create_user("taha", "taha@hotmail.com")
-    create_user("ahmet", "ahmet@hotmail.com")
-    create_user("mehmet", "mehmet@gmail.com")
+    create_user("mehmet","mehmet@hotmail.com")
+    create_user("taha","taha@hotmail.com")
+    create_user("ahmet","ahmet@hotmail.com")
     get_users()      
