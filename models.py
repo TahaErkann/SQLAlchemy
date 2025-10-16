@@ -13,7 +13,7 @@ class User(Base):
     created_at = Column(DateTime, server_default=func.now())
     
 #PostgreSQL connection string
-DATABASE_URL = "postgresql+psycopg://tahaerkan34:12345@localhost:5432/alchemy_db"   
+DATABASE_URL = "postgresql+psycopg://local:pssw@localhost:5432/db"   
 
 engine = create_engine(DATABASE_URL)
 
